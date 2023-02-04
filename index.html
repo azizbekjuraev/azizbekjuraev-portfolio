@@ -19,6 +19,7 @@
     <!-- MAIN STYLE -->
     <link rel="stylesheet" href="css/tooplate-style.css" />
   </head>
+
   <body>
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
@@ -413,9 +414,12 @@
 
           <div class="col-lg-6 col-12">
             <div class="contact-form">
-              <h2 class="mb-4">Interested to work together? Let's talk</h2>
+              <h2 class="mb-4">Send me a message!</h2>
 
-              <form action="" method="get">
+              <form
+                action="https://formsubmit.co/abdulazizj050@gmail.com"
+                method="POST"
+              >
                 <div class="row">
                   <div class="col-lg-6 col-12">
                     <input
@@ -435,8 +439,12 @@
                       placeholder="Email"
                       id="email"
                     />
+                    <input
+                      type="hidden"
+                      name="_autoresponse"
+                      value="Hey!, thanks for reaching me. I will get back to you as soon as possible...⚡️ Best Regards, AZIZBEK🤩"
+                    />
                   </div>
-
                   <div class="col-12">
                     <textarea
                       name="message"
@@ -451,7 +459,7 @@
                     <input
                       type="submit"
                       class="form-control submit-btn"
-                      value="Send Button"
+                      value="Send"
                     />
                   </div>
                 </div>
@@ -478,7 +486,6 @@
         </div>
       </div>
     </footer>
-
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
