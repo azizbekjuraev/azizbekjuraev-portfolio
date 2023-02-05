@@ -514,9 +514,9 @@ strong {
   }
 
   .navbar-collapse {
-    background: #ffffff;
+    /* background: #ffffff; */
     text-align: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
   }
 
   .navbar-expand-sm .navbar-nav .nav-link {
@@ -573,5 +573,8 @@ strong {
   .social-links li {
     display: inline-block;
     vertical-align: top;
+  }
+  body {
+    min-width: 320px;
   }
 }
