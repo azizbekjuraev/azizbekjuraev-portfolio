@@ -12,9 +12,12 @@ body {
   color: #5b5b5b;
   font-size: 14px;
   font-weight: bold;
-  padding: 8px 16px;
+  /* padding: 8px 16px; */
   border-radius: 50px;
   letter-spacing: 0.2px;
+}
+.col-lg-7 {
+  padding-left: 2rem;
 }
 
 ul {
@@ -499,6 +502,9 @@ strong {
   .contact-info {
     padding: 0 2rem;
   }
+  .about-text {
+    text-align: center;
+  }
 }
 @media (max-width: 767px) {
   h1 {
@@ -576,5 +582,8 @@ strong {
   }
   body {
     min-width: 320px;
+  }
+  .col-lg-7 {
+    margin-top: 5rem;
   }
 }
